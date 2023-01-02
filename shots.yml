@@ -1,7 +1,0 @@
-- output: ./assets/images/screenshot.png
-  quality: 80
-  url: https://webology.dev/
-
-- output: ./assets/images/preview.png
-  quality: 80
-  url: https://webology.dev/preview/
