@@ -16,8 +16,7 @@
     rm -rf .vendor _site Gemfile.lock
 
 @cog:
-    cog -r _includes/link-css-classes.html
-    cog -r README.md
+    cog -r _includes/link-css-classes.html README.md
 
 # opens a console
 @console:
@@ -34,7 +33,7 @@
 @setup:
     just bootstrap
 
-@start +ARGS="--detach":
+@start ARGS="--detach":
     just server {{ ARGS }}
 
 @stop:
